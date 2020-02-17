@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <section class="section1">
+         <div class="container-fluid">
+            <nav class="navbar">
+               <h4><a class="navbar-brand" href="#">Uzhavan</a></h4>
+               
+               <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                     <a class="nav-links active" href="#">Logout</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </section>
+      <section class="section2">
+         <div class="row no-gutters">
+	         <div class="col-3">
+	               <div class="navbar">
+	                  <ul class="nav flex-column">
+	                     <li class="nav-item">
+	                        <a class="nav-link active" href="#">Farmers</a>
+	                     </li>
+	                     <li class="nav-item">
+	                        <a class="nav-link" href="#">Stores</a>
+	                     </li>
+	                     <li class="nav-item">
+	                        <a class="nav-link" href="#">Buyers</a>
+	                     </li>
+	                     <li class="nav-item">
+	                        <a class="nav-link" href="#">Enquries</a>
+	                     </li>
+	                  </ul>
+	               </div>
+	       	</div>
+
+           <div class="content">
+              <ul>
+                 <li>Home</li>
+                 <li>/</li>
+                 <li>Farmers</li>
+              </ul>
+           </div>
+
+               <!-- Button trigger modal -->
+               <div class="create-button"  data-toggle="modal" data-target="#exampleModal">
+                  <button type="button" class="button">Create New</button>
+               </div>
+               <!-- Modal -->
+                     <div class="modal fade" role="dialog" id="exampleModal">
+                       <div class="modal-dialog" role="document">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="">Create Farmer</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span aria-hidden="true">&times;</span>
+                             </button>
+                           </div>
+                           <div class="modal-body">
+                             <form>
+                                <div class="form-group row">
+                                  <label for="staticEmail" class="col-3 ">Name</label>
+                                  <div class="col-9">
+                                    <input type="text"  id="staticEmail">
+                                  </div>
+                                 </div> 
+                                  <div class="form-group row">
+                                     <label for="staticEmail" class="col-3 ">Email-id</label>
+                                     <div class="col-9">
+                                       <input type="text"  id="staticEmail">
+                                     </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label for="inputPassword" class="col-3 ">Location</label>
+                                  <div class="col-9">
+                                    <select>
+                                       <option></option>
+                                       <option>Muthulapuram</option>
+                                       <option>Tvl</option>
+                                    </select>
+                                  </div>
+                                </div>
+                             </form>
+
+                           </div>
+                           <div class="btn-part">
+                             <button type="button" class="button1">Submit</button>
+                             <button type="button" class="button2" data-dismiss="modal">Cancel</button>
+                           </div>
+                         </div>
+                       </div>
+                    </div>
+
+
+
+                 <h1>Farmers</h1> 
+	       		<div class="part">
+            <table class="table1">
+               
+               <tr>
+	               <th>ID</th>
+	               <th>Name</th>
+	               <th>Email ID</th>
+	               <th>Location</th>
+	               <th>Shops Count</th>
+	               <th>Products Count</th>
+	               <th>Leads Count</th>
+	               <th>Action</th>
+               </tr>
+               <tr>
+                  <td>1</td>
+                  <td>Mahi</td>
+                  <td>krish@gmail.com</td>
+                  <td>Muthulapuram</td>
+                  <td>5</td>
+                  <td>23</td>
+                  <td>99</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>2</td>
+                  <td>Pinky</td>
+                  <td>mahipinkky@gmail.com</td>
+                  <td>Muthulapuram</td>
+                  <td>11</td>
+                  <td>23</td>
+                  <td>98</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>3</td>
+                  <td>Mirey</td>
+                  <td>pddon@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>5</td>
+                  <td>23</td>
+                  <td>200</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>4</td>
+                  <td>Dhanu</td>
+                  <td>krishdhanu@gmail.com</td>
+                  <td>Muthulapuram</td>
+                  <td>5</td>
+                  <td>45</td>
+                  <td>400</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>5</td>
+                  <td>Shine</td>
+                  <td>mireypinky@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>2</td>
+                  <td>23</td>
+                  <td>50</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>6</td>
+                  <td>Mahikrish</td>
+                  <td>mireypinky@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>11</td>
+                  <td>23</td>
+                  <td>100</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>7</td>
+                  <td>Krish</td>
+                  <td>mireypinky@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>4</td>
+                  <td>23</td>
+                  <td>98</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>8</td>
+                  <td>Raja</td>
+                  <td>mireypinky@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>2</td>
+                  <td>23</td>
+                  <td>50</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>9</td>
+                  <td>Maharaja</td>
+                  <td>mireypinky@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>2</td>
+                  <td>23</td>
+                  <td>100</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+               <tr>
+                  <td>10</td>
+                  <td>MirePinky</td>
+                  <td>mireypinky@gmail.com</td>
+                  <td>Tvl</td>
+                  <td>2</td>
+                  <td>23</td>
+                  <td>50</td>
+                  <td><u>Edit</u>  <u>Delete</u></td>
+               </tr>
+            </table>
+         </div>
+	       	</div>
+         </div>
+      </section>
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src=js/bootstrap.min.js></script>
+   </body>
+</html>
